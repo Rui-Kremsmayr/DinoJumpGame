@@ -24,6 +24,7 @@ void setup() {
   pinMode(_ledPin, OUTPUT);
   pinMode(_jumpPin, INPUT);
   pinMode(_duckPin, INPUT);
+  pinMode(_buzzerPin, OUTPUT);
 
   Serial.begin(9600);
   Serial.setTimeout(5); // very important for performance!
