@@ -7,7 +7,7 @@ int _lastDuckButtonState = 0;
 
 void setup() {
   pinMode(_jumpPin, INPUT);
-  pinMode(_duclPin, INPUT);
+  pinMode(_duckPin, INPUT);
   pinMode(_ledPin, OUTPUT);
 
   Serial.begin(9600);
